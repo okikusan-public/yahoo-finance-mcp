@@ -1,0 +1,9 @@
+# Files not uploaded by `gcloud run deploy --source` (never upload .env, which holds credentials)
+.env
+.env.*
+.venv/
+__pycache__/
+*.pyc
+.git/
+.pytest_cache/
+tests/
