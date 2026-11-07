@@ -1,0 +1,4 @@
+interface:
+  display_name: "Stock Backtest Reviewer"
+  short_description: "バックテスト結果を条件差・取引寄与・データ品質から検証レビュー"
+  default_prompt: "Use $stock-backtest-reviewer to review my backtest results and explain any condition or performance differences."

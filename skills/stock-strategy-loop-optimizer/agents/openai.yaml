@@ -1,0 +1,4 @@
+interface:
+  display_name: "Stock Strategy Loop Optimizer"
+  short_description: "損失原因から候補ルールを反復探索し、利益目標と再現性を時系列で検証"
+  default_prompt: "Use $stock-strategy-loop-optimizer to iteratively search for a positive-return stock strategy and validate it out of sample."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Stock Rule Set Manager"
+  short_description: "株式売買ルールを版管理し、比較・確定・再実行条件を固定"
+  default_prompt: "Use $stock-rule-set-manager to version, compare, and freeze the exact trading rule set for my backtest."

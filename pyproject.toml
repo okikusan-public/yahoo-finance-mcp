@@ -1,5 +1,5 @@
 [project]
-name = "yahoo-finance-mcp"
+name = "stock-skills-3"
 version = "0.1.0"
 description = "Remote MCP server for Yahoo Finance data with OAuth 2.1, deployable to Cloud Run"
 readme = "README.md"

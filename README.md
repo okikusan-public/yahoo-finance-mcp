@@ -1,4 +1,4 @@
-# yahoo-finance-mcp
+# stock_skills_3
 
 A remote [MCP](https://modelcontextprotocol.io) server that exposes Yahoo Finance data (via [yfinance](https://github.com/ranaroussi/yfinance)) to MCP clients such as **Claude** (claude.ai, Claude Desktop, Claude Code), **ChatGPT** connectors, and **Notion** custom agents.
 
@@ -219,6 +219,12 @@ auth.py          OAuth 2.1 authorization server, auth middleware, API key CLI
 deploy.sh        Cloud Run deployment
 Dockerfile       Container image (uv, Python 3.12, non-root)
 tests/           Offline and live test suites
+skills/stock-data-collector/  Versioned stock-data collection workflow
+skills/stock-data-updater/    Incremental latest-data join workflow
+skills/stock-backtester/      Rule-based backtest and validation workflow
+skills/stock-rule-set-manager/ Versioned trading-rule registry and comparison workflow
+skills/stock-backtest-reviewer/ Backtest reconciliation and result-review workflow
+skills/stock-strategy-loop-optimizer/ Iterative profit-target rule search and validation workflow
 .env.example     Configuration template (no real values)
 ```
 

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Stock Data Updater"
+  short_description: "Yahoo Finance MCP由来データだけを安全に差分結合"
+  default_prompt: "Use $stock-data-updater to join only Yahoo Finance MCP-sourced market data onto a compliant versioned stock-data package."

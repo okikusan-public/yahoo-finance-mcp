@@ -1,0 +1,4 @@
+interface:
+  display_name: "Stock Backtester"
+  short_description: "Yahoo Finance MCP由来データ限定で株式バックテストを実行・検算"
+  default_prompt: "Use $stock-backtester with Yahoo Finance MCP-provenance data only to formalize entry triggers, run a reproducible signal-driven backtest, and validate every purchase."

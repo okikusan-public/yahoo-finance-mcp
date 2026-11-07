@@ -1,0 +1,4 @@
+interface:
+  display_name: "Stock Data Collector"
+  short_description: "Yahoo Finance MCP専用で株式データを収集し版付き保存"
+  default_prompt: "Use $stock-data-collector to collect the required stock-market data exclusively through Yahoo Finance MCP into a reusable, versioned package."

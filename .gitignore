@@ -13,3 +13,9 @@ __pycache__/
 .DS_Store
 .idea/
 .vscode/
+
+# Local reusable datasets
+.cache/
+
+# Local one-off data collection and backtest scripts
+/scripts/
